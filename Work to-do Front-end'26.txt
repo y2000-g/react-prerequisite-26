@@ -1,0 +1,55 @@
+HTML,CSS,JAVAScript- advance concept of AI 
+may-end -> complete knowledge
+Project -> 1-2 
+Logical thinking -> every week friday offline class 
+every week - 10 questions
+Job ready content waise - 
+test submit - solutions - mock interviews - confidence - frpnt-communication-interview skills
+
+Day-1
+Basic of HTML
+ay-2 
+page title change
+body - h1-h6
+para text - 
+anchor tag- propeity
+attibu-property
+anchor-connct both page
+line break
+text formating 
+add on git hub-versal   
+
+Day-3 
+weikepedia
+anchor tag 
+list and tabel
+article
+
+Tablet tag
+tr tag, td, th. 
+caption tag
+thead 
+tbody
+row-col span
+colgroup
+nested tabel
+
+list tag-
+ul list - type of list squae, dics, circle, li tag, 
+ol list type of ol - 1, I-uper and lower case, a small and A capital
+dl - dt, dd - 
+nested list
+bullet point remove ?
+
+Anchor tag with image
+anchor with paragraph
+anchor with icon 
+parent and top 
+Email with anchor tag
+email parameter with title subject and cc and bcc define everything ?
+anchor tag phone number - call now ? directly connect with app
+
+navigation - headder, footer 
+ 
+
+
