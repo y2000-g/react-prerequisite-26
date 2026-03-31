@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+<style>
+    table, th, td 
+    {
+        border: 1px solid black;
+        border-collapse: collapse; 
+        /* border-style: inset; */
+        /* border-radius: 20px; */
+    }
+    th{
+        text-align: center;
+    }
+    th, td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    table{
+        border-spacing: 20px;
+    }
+    tr:nth-child(even){
+        background-color: aqua;
+    }
+    th:nth-child(even), td:nth-child(even){
+        background-color: antiquewhite;
+    }
+     tr:hover{
+        background-color: aquamarine;
+     } 
+        thead{ color: green;}
+        /* tbody{color: aquamarine;} */
+        tfoot{color: blueviolet;}
+</style>
+</head>
+<body>
+      <table style="width:30%; text-align: center;">
+        <caption>Car Ratings</caption>
+        <colgroup>
+            <col span="2" style="background-color:burlywood;">
+            <col span="1" style="background-color: bisque; border: 80px;"
+        </colgroup>
+        <!-- <col span="1" style="background-color: bisque; visibility: collapse;"> -->
+        <tr>
+            <th>Company</th> <!--  <th colspan="2">Company</th> -->
+            <th>Year</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td >Swift</td> <!-- <td rowspan="2">Swift</td> -->
+            <td>2026</td>
+            <td>3.5</td>
+        </tr>
+        <tr>
+            <td>Honda</td>
+            <td>2026</td>
+            <td>4.0</td>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>2026</td>
+            <td>4.5</td>
+        </tr>
+    </table>
+    <hr> 
+
+    <table style="width: 30%;">
+        <thead style="vertical-align: bottom;">
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody style="vertical-align: bottom;">
+            <tr style="height: 100px;">
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+             <tr>
+                <td>Febuary</td>
+                <td>$300</td>
+            </tr>
+             <tr>
+                <td>March</td>
+                <td>$500</td>
+            </tr>
+        </tbody>
+        <tfoot style="text-align: center;">
+            <tr>
+                <td>Sum</td>
+                <td>$900</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <!-- Padding - Cell padding is the space between the cell edges and the cell content. 
+    Spacing - Cell spacing is the space between each cell.
+    If you want to style the first two columns of a table, use the <colgroup> and <col> elements.
+    The span attribute specifies how many columns get the style.
+    The style attribute specifies the style to give the columns.-->
+</body>
+</html>

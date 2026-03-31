@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Scenario Based Q&A</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scenario Based Questions</h1>
+    <h2> My Favorite Travel Destinations</h2>
+    
+    <!-- <i>Scenario 1: Creating an HTML Table
+    Create a main heading h1 tag introducing your webpage (e.g., “My Favorite Travel Destinations”).
+    Add a paragraph p tag explaining what the table shows.
+    Create a table table tag that includes:
+    A header row with column titles (e.g., Destination, Country, Estimated Cost, Duration).
+    At least 3 rows of travel destinations with their respective data.
+    Optionally, add a border to your table using the border attribute or CSS.</i> -->
+
+    <!-- <i>Scenario 2: HTML Table with Caption, Headers, Rowspan, and Colspan:
+    Task:
+
+    Create a main heading <h1> introducing your webpage (e.g., “My Favorite Travel Destinations”).
+    Add a paragraph <p> explaining what the table shows.
+    Create a table <table> that includes:
+
+    A caption <caption> describing the table (e.g., “Top 3 Travel Destinations with Costs”).
+    A table header <thead> with column titles: Destination, Country, Estimated Cost, Duration.
+    A table body <tbody> with at least 3 rows of travel destinations.
+    Use rowspan to merge cells vertically for destinations that share the same country.
+    Use colspan to merge cells horizontally for headings or special notes.
+
+    Optionally, add a border to your table using the border attribute or CSS.</i> -->
+
+    <p>The tabel shows the travelling budget and cost of the Destinations</p><br><br>
+
+    <table>
+        <caption>"Top 3 Travel Destinations"</caption>
+        <tr>
+            <th>Destination</th>
+            <th>Country</th>
+            <th>Estimated cost</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Bali</td>
+            <td>Indonesia</td>
+            <td>60,000 – 90,000</td>
+            <td>5–7 Days</td>
+        </tr>
+         <tr>
+            <td>Dubai</td>
+            <td>UAE</td>
+            <td>70,000 – 1,20,000</td>
+            <td>4–6 Days</td>
+        </tr>
+         <tr>
+            <td>Singapore</td>
+            <td>Singapore</td>
+            <td>80,000 – 1,30,000</td>
+            <td>5–6 Days</td>
+        </tr>
+    </table><hr>
+    <!-- <i>Scenario 3: HTML Table with Caption, Headers, Rowspan, and Colspan:
+    Task:
+
+    Create a main heading <h1> introducing your webpage (e.g., “My Favorite Travel Destinations”).
+    Add a paragraph <p> explaining what the table shows.
+    Create a table <table> that includes:
+    A caption <caption> describing the table (e.g., “Top 3 Travel Destinations with Costs”).
+    A table header <thead> with column titles: Destination, Country, Estimated Cost, Duration.
+    A table body <tbody> with at least 3 rows of travel destinations.
+    Use rowspan to merge cells vertically for destinations that share the same country.
+    Use colspan to merge cells horizontally for headings or special notes.
+
+    Optionally, add a border to your table using the border attribute or CSS.</i> -->
+
+    <!-- <i>Scenario 4: Scenario: HTML Table with Caption, Headers, Rowspan, Colspan, and Column Grouping
+    Task:
+    Create a main heading <h1> introducing your webpage (e.g., “My Favorite Travel Destinations”).
+    Add a paragraph <p> explaining what the table shows.
+    Create a table <table> that includes:
+    • A caption <caption> describing the table (e.g., “Top 3 Travel Destinations with Costs”).
+    • A column grouping section <colgroup> using <col> to group or style columns.
+    • A table header <thead> with column titles:
+     Destination, Country, Estimated Cost, Duration.
+    • A table body <tbody> with at least 3 rows of travel destinations.
+    • Use rowspan to merge cells vertically for destinations that share the same country.
+    • Use colspan to merge cells horizontally for headings or special notes.
+    • Optionally, add a border to your table using the border attribute or CSS.</i> -->
+
+    <h2>1. My Favorite Travel Destinations</h2>
+    <p>The tabel shows the travelling budget and cost of the Destinations</p><br><br>
+
+    <table>
+        <caption> “Top 3 Travel Destinations with Costs”</caption>
+        <colgroup>
+            <col span="2" style="background-color: bisque;">
+            <col span="3" style="background-color: aqua;"
+        </colgroup>
+        <thead>
+        <tr>
+            <th colspan="2">Destination/Country </th>
+            <!-- <th>Country</th> -->
+            <th>Estimated cost</th>
+            <th>Duration</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Bali</td>
+            <td rowspan="2">Indonesia</td>
+            <td>60,000 – 90,000</td>
+            <td>5–7 Days</td>
+        </tr>
+        <tr>
+            <td>Komodo</td>
+            <!-- <td>Indonesia</td> -->
+            <td>60,000 – 70,000</td>
+            <td>5–6 Days</td>
+        </tr>
+         <tr>
+            <td>Dubai</td>
+            <td>UAE</td>
+            <td>70,000 – 1,20,000</td>
+            <td>4–6 Days</td>
+        </tr>
+         <tr>
+            <td>Singapore</td>
+            <td>Singapore</td>
+            <td>80,000 – 1,30,000</td>
+            <td>5–6 Days</td>
+        </tr>
+        </tbody>
+    </table><hr>
+    <!-- <p>Practice Question:
+    Create an HTML table with 3 rows and 3 columns containing student names. Assume data from your own college/Coaching.
+    Add a caption “Employee Salary Table” above a table.
+    Create a table where the first cell spans 2 columns. (Use colspan)
+    Create a table where a cell spans 3 rows. (Use rowspan)</p> -->
+    <table>
+        <caption>Q1.Akash Institute</caption>
+        <tr>
+            <th>Name</th>
+            <th>Roll no.</th>
+            <th>course</th>
+        </tr>
+        <tr>
+            <td>Ayush</td>
+            <td>0001</td>
+            <td>JEE</td>
+        </tr>
+        <tr>
+            <td>Ankit</td>
+            <td>0002</td>
+            <td>NEET</td>
+        </tr>
+        <tr>
+            <td>Shivam</td>
+            <td>0003</td>
+            <td>IIT/JEE</td>
+        </tr>
+    </table><br>
+    <hr>
+    <table>
+        <caption>Q2,3&4. “Employee Salary Table”</caption>
+        <tr>
+            <td>Arjun</td>
+            <td>ayush</td>
+            <td>Akash</td>
+        </tr>
+        <tr>
+            <td colspan="2">1Lakh</td>
+            <!-- <td>1lah</td> -->
+            <td>4lakh</td>
+        </tr>
+        <tr>
+            <td rowspan="3">2019</td>
+            <td>2020</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+             <td>2019</td>
+            <td>2020</td>
+        </tr>
+        <tr>
+             <td>2019</td>
+            <td>2020</td>
+        </tr>
+    </table><br>
+    <hr>
+    <!-- <p>Assignment Questions :
+        1.  Add table accessibility using <caption> and <th scope="col">.
+        2. Create a timetable using HTML tables.
+            Must use: <thead>, <tbody>, <th>, colspan
+        3. Create a nested table showing a student profile and marks.
+        4. Add accessibility features to a long data table.
+            Must include: scope <caption> <thead> <th></p> -->
+    <table>
+        <caption>Q1. Top destination with Cost</caption>
+        <tr>
+          <tr>
+            <th scope="col">Destination</th>
+            <th scope="col">Country</th>
+            <th scope="col">Estimated cost</th>
+            <th scope="col">Duration</th>
+        </tr>
+        <tr>
+            <td>Bali</td>
+            <td>Indonesia</td>
+            <td>60,000 – 90,000</td>
+            <td>5–7 Days</td>
+        </tr>
+         <tr>
+            <td>Dubai</td>
+            <td>UAE</td>
+            <td>70,000 – 1,20,000</td>
+            <td>4–6 Days</td>
+        </tr>
+    </table><br>
+    <table>
+        <caption>Q2</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Roll no</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yashita</td>
+                <td></td>
+                <td>11</td>
+                <td>12th</td>
+            </tr>
+             <tr>
+                <td>Shivani</td>
+                <td></td>
+                <td>12</td>
+                <td>10th</td>
+            </tr>
+             <tr>
+                <td>Yami</td>
+                <td></td>
+                <td>13</td>
+                <td>11th</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <hr>
+    <!-- <table>
+        <caption>Q3</caption>
+        <tr>
+            <td>Name</td>
+            <td>nested table
+                <table>
+                    <td>marks</td>
+                </table>
+            </td>
+            <td>Marks</td>
+        </tr>
+    </table>   -->
+
+    <table >
+    <caption>Q4 Travel Destinations Overview</caption>
+    <thead>
+        <tr>
+        <th scope="col">Destination</th>
+        <th scope="col">Country</th>
+        <th scope="col">Estimated Cost</th>
+        <th scope="col">Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">Bali</th>
+        <td>Indonesia</td>
+        <td>60,000 – 90,000</td>
+        <td>5–7 Days</td>
+        </tr>
+        <tr>
+        <th scope="row">Dubai</th>
+        <td>UAE</td>
+        <td>70,000 – 1,20,000</td>
+        <td>4–6 Days</td>
+        </tr>
+        <tr>
+        <th scope="row">Singapore</th>
+        <td>Singapore</td>
+        <td>80,000 – 1,30,000</td>
+        <td>5–6 Days</td>
+        </tr>
+        </tr>
+    </tbody>
+    </table><br>
+    <hr>
+    <!-- <p>Scenario: My Favorite Foods Webpage
+    Create a webpage that shows your favorite foods using an unordered list
+    Requirements
+
+    Create a main heading using <h1>: “My Favorite Foods”.
+    Add a short paragraph using <p> to describe why you like these foods.
+    Use an unordered list <ul> with at least 5 list items <li> to display your favorite foods.
+    Optionally, you can include an image of one of your favorite foods using <img>.</p> -->
+
+    <h3>“My Favorite Foods”</h3>
+    <p>I like South india food the most because it's healthy tasty and enhance gut health with probiotics</p>
+    <ul>
+        <li style="list-style-type: none; text-align: left;"><img src="images south indian food.jfif"></li>
+        <li>Dosa</li>
+        <li>Idli</li>
+        <li>Uttapam</li>
+    </ul>
+
+    <!-- <p>Scenario: My Favorite Foods and Weekly Meal Plan
+    Your favorite foods using an unordered list is done now.
+    Add Your weekly meal plan using an ordered list.
+    Requirements
+
+    Main heading <h1>: “My Favorite Foods and Weekly Meals”
+    Paragraph <p>: Short introduction about your eating habits.
+    Unordered list <ul>: List at least 5 favorite foods.
+    Subheading <h2>: “My Weekly Meal Plan”
+    Ordered list <ol>: List daily meals for a week (Mon–Sun).
+    Optional: Add an image <img> of your favorite food with src and alt.</p> -->
+
+    <!-- <p>Scenario: My Favorite Foods, Weekly Meal Plan & Food Definitions
+    Task: Create a webpage that includes:
+    Your favorite foods using an unordered list (<ul>).
+    Your weekly meal plan using an ordered list (<ol>).
+    Definitions of some foods using a definition list (<dl>, <dt>, <dd>).
+    Requirements
+    Main heading <h1>: “My Favorite Foods and Meal Plan”
+    Paragraph <p> introducing your food choices and meal habits.
+    Unordered list <ul>: List at least 5 favorite foods.
+    Ordered list <ol>: List daily meals for a week (Mon–Sun).
+    Definition list <dl>: Define 3 foods from your favorites list with <dt> for the term and <dd> for the description.
+    Optional: Add an image <img> for visual appeal.
+
+    [3:27 PM]Scenario: My Favorite Foods, Weekly Meal Plan & Nested Lists
+    Task: Create a webpage that includes:
+    Your favorite foods using an unordered list (<ul>).
+    Your weekly meal plan using an ordered list (<ol>).
+    Definitions of some foods using a definition list (<dl>, <dt>, <dd>).
+    Nested lists to show sub-items for your meals or favorite foods.
+    Requirements
+    Main heading <h1>: “My Favorite Foods & Weekly Meal Plan”
+    Paragraph <p> introducing your page.
+    Unordered list <ul> of at least 5 favorite foods, with some items having nested lists <ul> for toppings or variations.
+    Ordered list <ol> for weekly meals, with nested <ul> for side dishes or snacks.
+    Definition list <dl> for at least 3 foods, explaining each.
+    Optional: Add an image <img> for visual appeal.</p> -->
+
+    <h4>“My Favorite Foods and Weekly Meals”</h4>
+    <p>I try to never skip breakfast. Sometimes it is healthy, like curd and rice, fruits, dry fruits, poha, or 
+        idli, but sometimes it is just biscuits and snacks. Usually, my lunch is around 1:30–2:30, though sometimes 
+        it gets delayed until 4 pm. In lunch, I have vegetables, wheat chapati, rice, and pulses, which I consider 
+        a heavy meal. Dinner is usually completed between 8–10 pm and is the same as lunch, though sometimes I keep 
+        it light when I feel a heavy stomach.
+    </p>
+    <ul>
+        <li>Okra</li>
+        <li>Tamato </li>
+        <li>Paneer</li>
+        <li>South indian</li>
+    </ul>
+    <h5>“My Weekly Meal Plan”</h5>
+    <ol>
+        <li>cabbage and potato with chapati</li>
+        <li>Rice with chickpeas</li>
+        <li>Paneer peas with chapati</li>
+        <li>kidney beans with rice</li>
+        <li>Black gram with chapati</li>
+        <li>Bell pepper and potato with chapati</li>
+        <li>Pasta, noodles or South indian for Sunday</li>
+    </ol><br>
+    <dl>
+        <dt>Okra</dt>
+        <dd>- I love okra specially with when it's cooked by my mom</dd>
+        <dt>Dosa</dt>
+        <dd>- south indian food is one of my favorite because it's healthy and tasty</dd>
+        <dt>Lots of paneer</dt>
+        <dd>- Anything with paneer i can eat becauseit's a good protein source and tasty at the same time</dd>
+    </dl>
+    <ul>
+        <li>South Indian</li>
+        <li>
+            <ul>
+                <li>Dosa</li>
+                <li>Idli</li>
+                <li>Uttapam</li>
+            </ul>
+        </li>
+        <li>Okra</li>
+        <li>Tamato </li>
+        <li>Paneer</li>
+    </ul>
+    <ol>
+         <li>cabbage and potato with chapati</li>
+        <li>Rice with chickpeas</li>
+        <li>Paneer peas with chapati</li>
+        <li>
+            <ul>
+                <li>Dosa</li>
+                <li>Idli</li>
+                <li>Uttapam</li>
+            </ul>
+        </li>
+        <li>kidney beans with rice</li>
+        <li>Black gram with chapati</li>
+        <li>Bell pepper and potato with chapati</li>
+    </ol>
+
+    
+
+</body>
+</html>

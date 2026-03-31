@@ -1,30 +1,33 @@
+**Work flow**-
 HTML,CSS,JAVAScript- advance concept of AI 
 may-end -> complete knowledge
 Project -> 1-2 
 Logical thinking -> every week friday offline class 
 every week - 10 questions
 Job ready content waise - 
-test submit - solutions - mock interviews - confidence - frpnt-communication-interview skills
+test submit - solutions - mock interviews - confidence - 
+front-end-communication-interview skills
 
 Day-1
 Basic of HTML
-ay-2 
+
+Day-2 
 page title change
 body - h1-h6
-para text - 
-anchor tag- propeity
-attibu-property
-anchor-connct both page
+para text - text formating  
+anchor tag- property
+attribute-property
+anchor-connect both page
 line break
-text formating 
-add on git hub-versal   
+*add on git-hub, versal   
 
 Day-3 
-weikepedia
+wikipedia
 anchor tag 
 list and tabel
-article
+*article
 
+Day-4
 Tablet tag
 tr tag, td, th. 
 caption tag
@@ -51,5 +54,7 @@ anchor tag phone number - call now ? directly connect with app
 
 navigation - headder, footer 
  
+Day-5
+Logical problem only not with coding
 
 

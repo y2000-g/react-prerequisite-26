@@ -1,3 +1,6 @@
+
+<!-- This file content - Basic HTML structure, Headings, paragraph, text formatting and Anchor tag  -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,15 +13,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script> -->
 
-    <style>
-    table, th, td 
-    {
-        border: 1px solid black;
-        border-collapse: collapse;
-        border-radius: 0%;
-        border-style: solid;
-    }
-</style>
 </head>
 <body>
     <h1>Heading 1</h1> 
@@ -29,14 +23,14 @@
     <h6>Heading 6</h6> 
     <hr>
     <h7>heading 7</h7>
-    <h8>Heading 8</h8>
+    <h8>heading 8</h8>
 
     <!-- p tag gives space before and after text  -->
-    <p>HTML might look simple, but its real power lies in semantics — knowing which 
+    <p>HTML might look simple, but its real power lies in<br> semantics — knowing which 
     elements to use and why.<b> Most beginners </b> learn the syntax; <q>good front-end developers </q>
     learn <kbd> and accessibility</kbd> too.</p>
     <p><pre> is the new HTML might look simple, 
-but its real power lies in semantics — knowing which 
+    but its real power lies in semantics — knowing which 
     elements to use and why.Most beginners learn the syntax; 
     good front-end developers 
     learn intention 
@@ -52,10 +46,20 @@ but its real power lies in semantics — knowing which
 
     <p>but its real power lies in semantics — knowing which 
     elements to use and why. 
-    equation = <var>2x</var> + <var>2y</var> = <var>z</var> + 10 Most beginneHTML might look simple, but its real power lies in semantics — knowing which 
+    equation = <var>2x</var> + <var>2y</var> = <var>z</var> + 10 
+    Most beginneHTML might look simple, but its real power lies in semantics — knowing which 
     elements to use and why. Most beginners learn the syntax; <s>good front-end developers </s>
     learn intention and accessibility too.rs learn the syntax; good front-end developers 
     learn intention and accessibility too</p>
+    <p>WHO : <q>Goal is to keep world healthy and happy </q></p>
+    <abbr title="world health organisation">WHO</abbr>
+    <address>78 c
+    vidhur nagar
+    indore MP
+    </address><br>
+    <cite>the new famous poem by<cite>The orange life</cite><br>
+    <bdo dir="rtl">The left to right technique</bdo>
+    <hr>
 
     <p><b>Test formatting bold</b></p>
     <p><i>Test formatting italic</i></p>
@@ -72,82 +76,28 @@ but its real power lies in semantics — knowing which
     
     <!--atag gives doesn't give space before and after text -->
     <a href="https://www.w3schools.com">Visit W3Schools</a><br><br>
+    <a href="https://www.facebook.com/" target="_parent">facebook</a>
+    <a href="https://www.instagram.com/" target="_top">instagram</a>
     
     <!-- aboslute URLs -->
-    <p><a href="https://www.google.com/" target="_self">Vist google</a></p>
+    <p><a href="https://www.google.com/" target="_self" title="visit google for info">Vist google</a></p>
     <p><a href="https://www.google.com/" target="_blank">visit google</a></p>
+    <p>HTML might look simple, but its real power lies in semantics — knowing which 
+    elements to use and why.Most beginners learn the syntax; good front-end developers 
+    learn intention and accessibility too, HTML might look simple, but its real power lies in semantics — knowing which 
+    elements to use and why.Most beginners learn the syntax; good front-end developers 
+    learn intention and accessibility too ost beginners learn the syntax; <a href="experiment.html">Visit for more</a></p>
 
-   <!-- Relative URLs -->
-    <a href="C:\Users\hp\Documents\Front-end Mar'26\second.html">Visit second page</a><br>
+    <!-- Relative URLs -->
+    <a href="C:\Users\hp\Documents\Front-end Mar'26\second.html">Visit second page</a><br><br>
+    <a href="experiment.html"><img src="edit.png" alt="Editing icon" width="50px" height="50px"></a><br><br>
+    <a href="experiment.html"><img src="trigo map.gif" alt="Maths Formulas" width="10%" height="10%"></a><br><br>
+    <a href="mailto:yashitagole2019@gmail.com">Send mail</a><br><br> <!--emailconnection and direct set-up -->
+    <a href="tel:+917690534066">Call Us</a><br><br>
+    <a href="experiment.html"><button>click me</button></a> <!-- Button not working? -->
     <hr>
 
-    <!-- <a href="default.asp">
-    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-    </a> -->
-<!-- 
-    page located in the same folder - file.type
-    page located in the current floder - /file.type -->
-
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-        </tr>
-        <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
-         </tr>
-         <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
-        </tr>
-        <tr>
-            <td>Ernst Handel</td>
-            <td>Roland Mendel</td>
-            <td>Austria</td>
-        </tr>
-        <tr>
-            <td>Island Trading</td>
-            <td>Helen Bennett</td>
-            <td>UK</td>
-        </tr>
-        <tr>
-            <td>Laughing Bacchus Winecellars</td>
-            <td>Yoshi Tannamuri</td>
-            <td>Canada</td>
-        </tr>
-    </table>
-    <hr>
-<ul style="list-style-type: disc">
-  <li>Coffee</li>
-  <li>Tea</li>
-   <ul>
-      <li>Black tea</li>
-      <li>Green tea</li>
-    </ul>
-  <li>Milk</li>
-</ul>  
-
-<ol type="A">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <ol>
-      <li>Black tea</li>
-      <li>Green tea</li>
-    </ol>
-  <li>Milk</li>
-</ol>
-
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>
-
-
+<!-- page located in the same folder - file.type
+     page located in the current floder - /file.type -->
 </body>
 </html>
