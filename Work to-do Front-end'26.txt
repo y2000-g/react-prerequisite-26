@@ -51,10 +51,15 @@ parent and top
 Email with anchor tag
 email parameter with title subject and cc and bcc define everything ?
 anchor tag phone number - call now ? directly connect with app
-
 navigation - headder, footer 
  
 Day-5
 Logical problem only not with coding
 
-
+Day-6 
+Image - both type
+video
+audio
+PDf file load - 
+HTML file load to html
+background 
