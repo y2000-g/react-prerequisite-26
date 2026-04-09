@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Form Page</title>
+</head>
+<body>
+    <!-- The HTML <input> element is the most used form element. -->
+    <!-- <input type="button" value="Click me"><br><br>
+    <label>Male:</label><input type="checkbox"><label>Female:</label><input type="checkbox"><br><br>
+    <input type="color"><br><br>
+    <input type="date"><br><br>
+    <input type="datetime-local"><br><br>
+    <input type="email"><br><br>
+    <input type="file"><br><br> -->
+    <!-- <input type="hidden"> -->
+    <!-- <input type="image" src="../images/Flowers.jfif"><br><br>
+    <input type="month"><br><br>
+    <input type="number"><br><br>
+    <input type="password"><br><br>
+    <input type="radio"><br><br>
+    <input type="range"><br><br>
+    <input type="reset"><br><br>
+    <input type="search"><br><br>
+    <input type="submit"><br><br>
+    <input type="tel"><br><br>
+    <input type="text"><br><br>
+    <input type="time"><br><br>
+    <input type="url"><br><br>
+    <input type="week"><br><br>
+    <hr><br> -->
+     <form>
+        <!-- Text  defines a single-line text input field: 
+         value attribute specifies an initial value for an input field:
+         readonly attribute specifies that an input field is read-only(Clickable).
+         disabled attribute specifies that an input field should be disabled(Unclickable).-->
+            <label for="yname"> Your fullName:</label>
+            <input type="text" name="yname" id="yname" value="Yashita" readonly><br><br>
+            <label for="Sname"> Your School name:</label>
+            <input type="text" name="sname" id="sname" value="DPS" disabled><br><br>
+        <!-- UserName and password defines a password field:
+         size attribute specifies the visible width, in characters, of an input field.
+         maxlength attribute specifies the maximum number of characters allowed in an input field.-->
+            <label for="Username">Username:</label>
+            <input type="text" name="Username" id="Username" size="30" maxlength="30"><br><br>
+            <label for="pwd">password</label>
+            <input type="password" name="pwd" id="pwd" ><br><br>
+        <!-- Radio defines a radio button.
+        Radio buttons let a user select ONLY ONE of a limited number of choices -->
+            <label>Radio</label><br><br>
+            <input type="radio" id="html" value="HTML" name="fav_language">
+            <label for="html">HTML</label><br><br>
+            <input type="radio" id="css" value="CSS" name="fav_language">
+            <label for="css">CSS</label><br><br>
+            <input type="radio" id="javascript" value="JAVASCRIPT" name="fav_language">
+            <label for="javascript">JAVASCRIPT</label><br><br>
+        <!-- Checkbox:defines a checkbox, Checkboxes let a user select ZERO or MORE 
+        options of a limited number of choices.Example -->
+            <label>Checkbox</label><br><br>
+            <input type="checkbox" value="bike" name="vehicle1" id="bike">
+            <label for="bike">I have a Bike</label><br><br>
+            <input type="checkbox" value="Car" name="vehicle2" id="car">
+            <label for="car">I have a Car</label><br><br>
+            <input type="checkbox" value="boat" name="vehicle3" id="boat">
+            <label for="boat">I have a Boat</label><br><br>
+        <!-- Button: defines a button -->
+            <input type="button" value="Click Me!" onclick="alert('Hello world')"><br><br>
+        <!-- Color: is used for input fields that should contain a color.
+        Depending on browser support, a color picker can show up in the input field -->
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br><br>
+        <!-- Type Date is used for input fields that should contain a date
+        min and max attributes specify the minimum and maximum values for an input field.
+        The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week. -->
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" min="2000-01-02"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" max="1976-02-03"><br><br>
+        <!-- DateTime-Local specifies a date and time input field, with no time zone-->
+            <label for="birthdayTime" >Birthday:(date and time)</label>
+            <input type="datetime-local" id="birthday" name="BirthdayTimeAndDate"><br><br>
+        <!-- Email  is used for input fields that should contain an e-mail address.-->
+            <label for="email">Email : </label>
+            <input type="email" name="Email" id="email"><br><br>
+        <!-- Image defines an image as a submit button.-->
+            <input type="image" src="../images/Flowers.jfif" alt="submit"><br><br> 
+            <!-- Alt?? -->
+        <!-- FIle defines a file-select field and a "Browse" button for file uploads.-->
+            <label for="file">Select file:</label>
+            <input type="file" id="file" name="file"><br><br>
+        <!-- Hidden: defines a hidden input field (not visible to a user).
+        A hidden field lets web developers include data that cannot be seen or modified by users when a form is submitted.
+        A hidden field often stores what database record that needs to be updated when the form is submitted. 
+        it is visible (and can be edited) using any browser's developer tools or "View Source" functionality-->
+           <input type="hidden" name="cusID" id="cusID" value="4567" ><br><br>
+        <!-- Month: allows the user to select a month and year. -->
+            <label for="bdaymonth"></label>
+            <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+        <!-- Number:defines a numeric input field. You can also set restrictions on what numbers are accepted. -->
+            <label for="quantity">Quantity(between 1 to 10)</label>
+            <input type="number" id="quantity" name="quantity" max="10"><br><br>
+        <!-- Range:defines a control for entering a number whose exact value is not important  Default range is 0 to 100.  -->
+            <label for="range">Select Range(between 10 to 100):</label>
+            <input type="range" id="range" name="range" max="100"><br><br>
+        <!-- Search: is used for search fields (a search field behaves like a regular text field). -->
+            <label for="gsearch">Search Google</label>
+            <input type="search" id="gsearch" name="gsearch"><br><br>
+        <!-- Tel  is used for input fields that should contain a telephone number.-->
+            <label for="phoneNO">Enter your Phone NUmber:</label>
+            <input type="tel" id="phoneNO" name="phoneNumber"><br><br>
+        <!-- Time allows the user to select a time (no time zone). -->
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt" min="19,40"><br><br>
+        <!-- URLs is used for input fields that should contain a URL address. -->
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage"><br><br>
+        <!-- Week allows the user to select a week and year.-->
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week" min="20,2025" max="50,26"><br><br>
+        <!-- submit defines a button for submitting form data to a form-handler.
+        The form-handler is specified in the form's action attribute-->
+            <input type="submit" value="submit">
+        <!-- Reset defines a reset button that will reset all form values to their default values:-->
+            <input type="reset" value="reset"><br><br>
+     </form>
+
+    <!-- An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+    The HTML <form> element is used to create an HTML form for user input:
+    The <form> element is a container for different types of input elements, 
+    such as: text fields, checkboxes, radio buttons, submit buttons, etc -->
+
+</body>
+</html>
+

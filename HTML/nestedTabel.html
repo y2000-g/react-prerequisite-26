@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nested HTML Tabel</title>
+    <style>
+        table{
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        td{
+            padding: 16px;
+        }
+        tr:nth-child(even){
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Swift</td>
+            <td>Nested Table
+                <table>
+
+                    <tr>
+                        <td>
+                            Splender
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hero
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            Splender
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hero
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+</body>
+</html>

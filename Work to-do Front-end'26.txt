@@ -62,4 +62,23 @@ video
 audio
 PDf file load - 
 HTML file load to html
-background 
+background IMage working
+
+Day-6/ date- 1-04-26
+video/audio - Control, Autoplay, Muted, Loop
+Embed
+Object
+background img with repeat
+number list - sorting ways finds
+Input element with forms tag
+
+Day-7/ date-02/04/26
+Audio video button and Autoplay debug
+background img with repeat
+number list - sorting ways finds
+Input element with forms tag
+
+Doubt section - 
+file:///C:/Users/hp/Documents/Front-end%20Mar'26/HTML/formTag.html?yname=yashita
+Left and right in programming
+Audio is not working
