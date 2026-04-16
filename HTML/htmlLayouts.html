@@ -1,0 +1,143 @@
+
+<!-- HTML Layout Elements
+HTML has several semantic elements that define the different parts of a web page:
+
+<header> - Defines a header for a document or a section
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
+<figcaption>
+<figure>
+<main>
+<mark>
+<time>-->
+    
+<!-- There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
+CSS Frameworks
+If you want to create your layout fast, you can use a CSS framework
+CSS Float Layout
+You can create entire web layouts using the CSS float property.
+CSS Flexbox Layout
+Use of flexbox ensures that elements behave predictably when the page layout must accommodate different 
+screen sizes and different display devices.
+Learn more about flexbox in our CSS Flexbox chapter.
+CSS Grid Layout
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to 
+design web pages without having to use floats and positioning.-->
+
+<!-- Semantic Elements - 
+- A semantic element clearly describes its meaning to both the browser and the developer.
+Examples of semantic elements: <img>, <table>, and <article> - Clearly defines its content.
+NOn-Semantic ELements - 
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.-->
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>HTML LAYOUT</title>
+    <style>
+        aside
+        {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <!-- NOTE:
+     Reserved characters in HTML must be replaced with entities:
+    < (less than) = &lt;
+    > (greater than) = &gt; 
+    
+    URL - Uniform Resource Locator
+    scheme - defines the type of Internet service (most common is http or https)
+    prefix - defines a domain prefix (default for http is www)
+    domain - defines the Internet domain name (like w3schools.com)
+    port - defines the port number at the host (default for http is 80)
+    path - defines a path at the server (If omitted: the root directory of the site)
+    filename - defines the name of a document or resource
+        http	HyperText Transfer Protocol	Common web pages. Not encrypted
+        https	Secure HyperText Transfer Protocol	Secure web pages. Encrypted
+        ftp	File Transfer Protocol	Downloading or uploading files
+        file	 	A file on your computer-->
+
+<!--The <nav> element defines a set of navigation links.      -->
+<nav style="background-color: aqua;">
+    <a href="basicTag.html" style="margin-right: 50px;">Home</a>
+    <a href="experiment.html" style="margin-right: 50px;">Courses</a>
+    <a href="list.html" style="margin-right: 50px;">contact Us</a>
+</nav>
+<p>	&#128514;</p>
+<!-- he <main> tag specifies the main content of a document.
+
+The content inside the <main> element should be unique to the document. It should not contain any content 
+that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms. -->
+<main>
+    <section>
+    <h1>WHO</h1>
+    <p>World health Organisation</p>
+</section><hr>
+</main>
+<!-- The <section> element defines a section in a document. -->
+<section>
+    <h1>WHO</h1>
+    <p>World health Organisation</p>
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's 
+            most popular web browser today!</p>
+    </article>
+</section><hr>
+<!-- The <article> element specifies independent, self-contained content.
+    <article> element can be used:
+    Forum posts
+    Blog posts
+    User comments
+    Product cards
+    Newspaper articles 
+    The <header> element represents a container for introductory content or a set of navigational links.-->
+    <article>
+        <header>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's 
+            most popular web browser today!</p>
+        </header>
+    <section>
+        <h1>WHO</h1>
+        <p>World health Organisation</p>
+    </section>
+    </article>
+   <!-- The <aside> element defines some content aside from the content it is placed in -->
+    <aside>
+        <h4>THis content is Aside</h4>
+        <p>My family and I visited The Epcot center this summer. The weather was nice, 
+            and Epcot was amazing! I had a great summer together with my family!</p>
+    </aside>
+    <figure>
+        <figcaption> this is figure tag img with Colorful Flowers</figcaption>
+        <img src="../images/Flowers.jfif">
+    </figure>
+    <!-- The <details> tag specifies additional details that the user can open and close on demand.
+        <summary> tag is used to specify a visible heading for the details. -->
+        <details>
+            <summary>WHo</summary>
+            <p>World Health Organization</p>
+        </details>
+    <footer>
+        <p>This is the footer tag</p>
+        <P><a href="www.google.com">contact us on google</a></P>
+    </footer>
+</body>
+</html>
+
+

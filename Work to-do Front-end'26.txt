@@ -1,4 +1,4 @@
-**Work flow**-
+#Work flow -
 HTML,CSS,JAVAScript- advance concept of AI 
 may-end -> complete knowledge
 Project -> 1-2 
@@ -64,7 +64,7 @@ PDf file load -
 HTML file load to html
 background IMage working
 
-Day-6/ date- 1-04-26
+Day-7/ date- 1-04-26
 video/audio - Control, Autoplay, Muted, Loop
 Embed
 Object
@@ -72,13 +72,61 @@ background img with repeat
 number list - sorting ways finds
 Input element with forms tag
 
-Day-7/ date-02/04/26
+Day-8 date-02/04/26
 Audio video button and Autoplay debug
 background img with repeat
 number list - sorting ways finds
 Input element with forms tag
 
+Day-(06-07-08)-04-26 -> Form Tag 
+
+Day- 09-04-25
+DOM
+HTML Semantic Layout
+NON-Semantic layout
+2 Questions - sorting and Searching Algo
+<meta tag>
+
+Date -13-04-26
+Info for events ->
+Event search -
+Notification - 
+Meet-up app 
+luma - notification
+communities - 
+social site follow  
+
+WORK -
+REVISIT - DOM and Layouts - semantic and non-semantic
+Make a article page for a fomous article - header, footer and links etc.
+logical work - learn searching and sorting one by one continue.  
+
+Date - 14-04-26
+Work - 
+made page of article
+CSS
+logical -
+dry run, string run, object run
+searching and sorting - 1 learning
+
+Day-15-04-26
+Work -
+HTML article page with semantic layout
+CSS
+Logical -
+dry run, string run, object run
+searching and sorting - 1 learning
+
+Day-16-04-26
+Work -
+HTML article page with semantic layout
+CSS
+Logical -
+dry run, object run - Algorithm logic
+searching and sorting - 1 learning
+
 Doubt section - 
-file:///C:/Users/hp/Documents/Front-end%20Mar'26/HTML/formTag.html?yname=yashita
-Left and right in programming
-Audio is not working
+headache
+
+
+

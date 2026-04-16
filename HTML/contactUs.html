@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Form</title>
+    <style>
+        form{
+            text-align: center;
+        }
+        header{
+             display: flex;
+            justify-content: center;
+            gap: 50px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p style="margin-top: 50px; font-size: 20px;"><b>Article World</b></p>
+        <nav style="background-color: rgb(193, 216, 226); text-align: center; font-size: 30px; padding: 40px; margin-right: 150px;">
+            <a href="article.html" style="margin-right: 50px; text-decoration-color: aliceblue;">Home</a>
+            <a href="Category.html" style="margin-right: 40px; text-decoration-color: aliceblue;">Category</a>
+            <a href="contactUs.html" style="margin-right: 0px; text-decoration-color: aliceblue;">contact Us</a>
+        </nav>
+    </header><br><br>
+    <form>
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name" required><br><br>
+            <label for="tel">Phone Number</label>
+            <input type="tel" id="tel" pattern="0-9" placeholder="+91"><br><br>
+            <label for="mail">Email Id:</label>
+            <input type="email" id="mail" placeholder="Your email id"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -4,6 +4,8 @@
     <title>Form Page</title>
 </head>
 <body>
+    <!-- The HTML <input> element is the most used form element.
+    An <input> element can be displayed in many ways, depending on the type attribute. -->
     <!-- The HTML <input> element is the most used form element. -->
     <!-- <input type="button" value="Click me"><br><br>
     <label>Male:</label><input type="checkbox"><label>Female:</label><input type="checkbox"><br><br>
@@ -28,22 +30,33 @@
     <input type="url"><br><br>
     <input type="week"><br><br>
     <hr><br> -->
-     <form>
+     <form autocomplete="off" >
+        <!-- The HTML <input> element is the most used form element.
+        An <input> element can be displayed in many ways, depending on the type attribute.
+        <label> tag defines a label for many form elements. -->
+        <!-- autocomplete attribute specifies whether a form or an input field should have autocomplete on or off. -->
         <!-- Text  defines a single-line text input field: 
          value attribute specifies an initial value for an input field:
          readonly attribute specifies that an input field is read-only(Clickable).
-         disabled attribute specifies that an input field should be disabled(Unclickable).-->
+         disabled attribute specifies that an input field should be disabled(Unclickable).
+         autofocus attribute specifies that an input field should automatically get focus when the page loads.-->
             <label for="yname"> Your fullName:</label>
             <input type="text" name="yname" id="yname" value="Yashita" readonly><br><br>
             <label for="Sname"> Your School name:</label>
             <input type="text" name="sname" id="sname" value="DPS" disabled><br><br>
+            <label for="clg">Collage name:</label>
+            <input type="text" id="clg" name="Collage" autofocus><br><br>
         <!-- UserName and password defines a password field:
          size attribute specifies the visible width, in characters, of an input field.
-         maxlength attribute specifies the maximum number of characters allowed in an input field.-->
+         maxlength attribute specifies the maximum number of characters allowed in an input field.
+         placeholder attribute specifies a short hint that describes the expected value of an input field -->
             <label for="Username">Username:</label>
-            <input type="text" name="Username" id="Username" size="30" maxlength="30"><br><br>
+            <input type="text" name="Username" id="Username" placeholder="Type your Username" size="30" maxlength="30" required><br><br>
+        <!-- pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.
+        The pattern attribute works with the following input types: text, date, search, url, tel, email, and password 
+        required attribute specifies that an input field must be filled out before submitting the form-->
             <label for="pwd">password</label>
-            <input type="password" name="pwd" id="pwd" ><br><br>
+            <input type="password" name="pwd" id="pwd" pattern="[A-Za-z]{3}" title="Use three letter" required><br><br>
         <!-- Radio defines a radio button.
         Radio buttons let a user select ONLY ONE of a limited number of choices -->
             <label>Radio</label><br><br>
@@ -77,16 +90,17 @@
             <input type="date" id="birthday" name="birthday" max="1976-02-03"><br><br>
         <!-- DateTime-Local specifies a date and time input field, with no time zone-->
             <label for="birthdayTime" >Birthday:(date and time)</label>
-            <input type="datetime-local" id="birthday" name="BirthdayTimeAndDate"><br><br>
+            <input type="datetime-local" id="birthday" name="BirthdayTimeAndDate" max="2026-02-01T20:00"><br><br>
         <!-- Email  is used for input fields that should contain an e-mail address.-->
             <label for="email">Email : </label>
             <input type="email" name="Email" id="email"><br><br>
         <!-- Image defines an image as a submit button.-->
             <input type="image" src="../images/Flowers.jfif" alt="submit"><br><br> 
             <!-- Alt?? -->
-        <!-- FIle defines a file-select field and a "Browse" button for file uploads.-->
+        <!-- FIle defines a file-select field and a "Browse" button for file uploads.
+         multiple attribute specifies that the user is allowed to enter more than one value in an input field-->
             <label for="file">Select file:</label>
-            <input type="file" id="file" name="file"><br><br>
+            <input type="file" id="file" name="file" multiple><br><br>
         <!-- Hidden: defines a hidden input field (not visible to a user).
         A hidden field lets web developers include data that cannot be seen or modified by users when a form is submitted.
         A hidden field often stores what database record that needs to be updated when the form is submitted. 
@@ -94,13 +108,14 @@
            <input type="hidden" name="cusID" id="cusID" value="4567" ><br><br>
         <!-- Month: allows the user to select a month and year. -->
             <label for="bdaymonth"></label>
-            <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+            <input type="month" id="bdaymonth" name="bdaymonth" min="2000-01" max="2020-02"><br><br>
         <!-- Number:defines a numeric input field. You can also set restrictions on what numbers are accepted. -->
             <label for="quantity">Quantity(between 1 to 10)</label>
             <input type="number" id="quantity" name="quantity" max="10"><br><br>
-        <!-- Range:defines a control for entering a number whose exact value is not important  Default range is 0 to 100.  -->
+        <!-- Range:defines a control for entering a number whose exact value is not important  Default range is 0 to 100.
+         step attribute specifies the legal number intervals for an input field.  -->
             <label for="range">Select Range(between 10 to 100):</label>
-            <input type="range" id="range" name="range" max="100"><br><br>
+            <input type="range" id="range" name="range" max="100" step="10"><br><br>
         <!-- Search: is used for search fields (a search field behaves like a regular text field). -->
             <label for="gsearch">Search Google</label>
             <input type="search" id="gsearch" name="gsearch"><br><br>
@@ -109,24 +124,103 @@
             <input type="tel" id="phoneNO" name="phoneNumber"><br><br>
         <!-- Time allows the user to select a time (no time zone). -->
             <label for="appt">Select a time:</label>
-            <input type="time" id="appt" name="appt" min="19,40"><br><br>
+            <input type="time" id="appt" name="appt" min="19:40"><br><br>
         <!-- URLs is used for input fields that should contain a URL address. -->
             <label for="homepage">Add your homepage:</label>
             <input type="url" id="homepage" name="homepage"><br><br>
         <!-- Week allows the user to select a week and year.-->
             <label for="week">Select a week:</label>
-            <input type="week" id="week" name="week" min="20,2025" max="50,26"><br><br>
+            <input type="week" id="week" name="week" min="2025-W18" max="2026-W20"><br><br>
         <!-- submit defines a button for submitting form data to a form-handler.
         The form-handler is specified in the form's action attribute-->
             <input type="submit" value="submit">
         <!-- Reset defines a reset button that will reset all form values to their default values:-->
             <input type="reset" value="reset"><br><br>
-     </form>
+     </form><br><hr>
 
     <!-- An HTML form is used to collect user input. The user input is most often sent to a server for processing.
     The HTML <form> element is used to create an HTML form for user input:
     The <form> element is a container for different types of input elements, 
-    such as: text fields, checkboxes, radio buttons, submit buttons, etc -->
+    such as: text fields, checkboxes, radio buttons, submit buttons, etc 
+    
+    The action attribute defines the action to be performed when the form is submitted.
+    Usually, the form data is sent to a file on the server when the user clicks on the submit button
+    
+    The target attribute specifies where to display the response that is received after submitting the form.
+    
+    The method attribute specifies the HTTP method to be used when submitting the form data.
+
+    Notes on GET:
+    Appends the form data to the URL, in name/value pairs
+    NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+    The length of a URL is limited (2048 characters)
+    Useful for form submissions where a user wants to bookmark the result
+    GET is good for non-secure data, like query strings in Google
+
+    Notes on POST:
+    Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+    POST has no size limitations, and can be used to send large amounts of data.
+    Form submissions with POST cannot be bookmarked
+    
+    The novalidate attribute is a boolean attribute.-->
+
+    <form action="experiment.html" target="_blank" method="post" autocomplete="on" id="form1" novalidate>
+        <!-- The <fieldset> element is used to group related data in a form.
+        The <legend> element defines a caption for the <fieldset> element. -->
+        <fieldset>
+            <legend>Form tag fieldset:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            
+
+            <!-- The <select> element defines a drop-down list:
+            The <option> element defines an option that can be selected.
+            By default, the first item in the drop-down list is selected.
+            To define a pre-selected option, add the selected attribute to the option 
+            Use the size attribute to specify the number of visible values-->
+
+            <label for="cars">Select the cars:</label>
+            <select id="cars" name="Cars name" size="3" multiple>
+                <option value="Volvo">VOlvo</option>
+                <option value="Swift">Swift</option>
+                <option value="fiat" selected>Fiat</option>
+                <option value="Audi">Audi</option>
+            </select><br><br>
+            <!-- The <textarea> element defines a multi-line input field (a text area) 
+            The rows attribute specifies the visible number of lines in a text area.
+            The cols attribute specifies the visible width of a text area.
+            You can also define the size of the text area by using CSS-->
+            <textarea name="message"  rows="5" cols="5" style="width: 150px; height: 150px;">The Cat is brown and playing in the garden
+            </textarea><br><br>
+            <!-- The <datalist> element specifies a list of pre-defined options for an <input> element.
+            Users will see a drop-down list of the pre-defined options as they input data.
+            The list attribute of the <input> element, must refer to the id attribute of the <datalist> element. -->
+            <label>browser option:</label>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist><br>
+            <input type="submit" value="Submit">
+            <!-- The input formaction attribute specifies the URL of the file that will process the input when the form is submitted.
+            Note: This attribute overrides the action attribute of the <form> element.
+            The formaction attribute works with the following input types: submit and image. -->
+            <input type="submit" formaction="basicTag.html" value="Submit as Admin">
+        </fieldset><br><br>
+        <!-- An input field located outside of the HTML form (but still a part of the form): 
+         formenctype 
+         formmethod 
+         formtarget 
+         formnovalidate (this all are override the <form> Tag attributes)-->
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" form="form1">
+
+    </form>
 
 </body>
 </html>
