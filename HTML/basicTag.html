@@ -1,13 +1,42 @@
 
-<!-- This file content - Basic HTML structure, Headings, paragraph, text formatting and Anchor tag  -->
+<!-- This file content - Basic HTML structure, Headings, paragraph, text formatting and 
+ Anchor tag  -->
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset='utf-8'>
     <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
-     
     <title>First HTMl</title>
+    <style> 
+        body{
+            background-color: rgb(199, 224, 233);
+            opacity: 0.9;
+        }
+        p{
+            /* background-image: url("../images/Flowers.jfif");
+            background-repeat: repeat-x;
+            background-position: right;
+            background-attachment: fixed; */
+            background: #ffffff url("../images/Flowers.jfif") no-repeat fixed;
+        }
+        p.dotted{
+            border-style: dotted;
+            border-width: 5px;
+        }
+        #Bcolor{
+            /* border-style: solid;
+            border-color: red yellow green blue; */
+            border: 3px solid green;
+            border-radius: 5px 20px 10px 5px;
+        }
+        #pborder{
+            border-top-style: dashed;
+            border-right-style: solid;
+            border-bottom-style: dashed;
+            border-left-style: solid;
+        }
+    </style>
 
     <!-- <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
@@ -15,21 +44,21 @@
 
 </head>
 <body>
-    <h1>Heading 1</h1> 
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6> 
+    <h1 style="background-color: aqua;">Heading 1</h1> 
+    <h2 style="color: blue;">Heading 2</h2>
+    <h3 style="border: 2px solid red;">Heading 3</h3>
+    <h4 style="background-color: rgba(255,156,255,0.5);">Heading 4</h4>
+    <h5 style="background-color: #ff00ff;">Heading 5</h5>
+    <h6 style="background-color: #fc0;">Heading 6</h6> 
     <hr>
-    <h7>heading 7</h7>
-    <h8>heading 8</h8>
+    <h7 style="background-color: hsl(0, 30%, 50%)">heading 7</h7><br>
+    <h8 style="background-color: hsla(20, 20%, 40%, 0.6);">heading 8</h8>
 
     <!-- p tag gives space before and after text  -->
-    <p>HTML might look simple, but its real power lies in<br> semantics — knowing which 
+    <p class="dotted">HTML might look simple, but its real power lies in<br> semantics — knowing which 
     elements to use and why.<b> Most beginners </b> learn the syntax; <q>good front-end developers </q>
     learn <kbd> and accessibility</kbd> too.</p>
-    <p><pre> is the new HTML might look simple, 
+    <p ><pre> is the new HTML might look simple, 
     but its real power lies in semantics — knowing which 
     elements to use and why.Most beginners learn the syntax; 
     good front-end developers 
@@ -51,7 +80,7 @@
     elements to use and why. Most beginners learn the syntax; <s>good front-end developers </s>
     learn intention and accessibility too.rs learn the syntax; good front-end developers 
     learn intention and accessibility too</p>
-    <p>WHO : <q>Goal is to keep world healthy and happy </q></p>
+    <p id="Bcolor">WHO : <q>Goal is to keep world healthy and happy </q></p>
     <abbr title="world health organisation">WHO</abbr>
     <address>78 c
     vidhur nagar
@@ -61,7 +90,7 @@
     <bdo dir="rtl">The left to right technique</bdo>
     <hr>
 
-    <p><b>Test formatting bold</b></p>
+    <p id="pborder"><b>Test formatting bold</b></p>
     <p><i>Test formatting italic</i></p>
     <p><strong>Test formatting strong</strong></p>
     <p><em>Test formatting Emphasized text</em></p>
@@ -96,10 +125,16 @@
     <a href="experiment.html">Visit second page</a><br><br>
     <a href="experiment.html"><img src="../images/edit.png" alt="Editing icon" width="50px" height="50px"></a><br><br>
     <a href="experiment.html"><img src="../images/trigo map.gif" alt="Maths Formulas" width="10%" height="10%"></a><br><br>
-    <a href="mailto:yashitagole2019@gmail.com">Send mail</a><br><br> <!--emailconnection and direct set-up -->
+    <a href="mailto:yashitagole2019@gmail.com">Send mail</a><br><br> <!--email connection and direct set-up -->
     <a href="tel:+917690534066">Call Us</a><br><br>
     <a href="experiment.html"><button>click me</button></a> <!-- Button not working? -->
     <hr>
+    <br>
+    <div>
+        <div>Left</div>
+        <div>Center</div>
+        <div>Right</div>
+    </div>
 
 <!-- page located in the same folder - file.type
      page located in the current floder - /file.type -->

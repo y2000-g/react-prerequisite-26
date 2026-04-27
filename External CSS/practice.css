@@ -1,0 +1,136 @@
+/* CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed. 
+CSS stands for Cascading Style Sheets
+It can control the layout of multiple web pages all at once
+CSS Syntax - 
+A CSS rule consists of a selector and a declaration block,
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+
+Simple selectors - element, id and class
+The element selector selects HTML elements based on the element name.
+
+The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name.
+You can also specify that only specific HTML elements should be affected by a class.
+HTML elements can also refer to more than one class.
+Id and class name cannot start with number
+The CSS Universal Selector
+The universal selector (*) selects all HTML elements on the page.
+The grouping selector selects all the HTML elements with the same style definitions.
+(the h1, h2, and p elements have the same style definitions):
+
+There are three ways of inserting a style sheet:
+
+External CSS - link to an external .css file
+With an external style sheet, you can change the look of an entire website by changing just one file!
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+Internal CSS -
+An internal style sheet may 
+RGB Value
+be used if one single HTML page has a unique style.
+The internal style is defined inside the <style> element, inside the head section.
+Inline CSS
+An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+CSS Colors - 
+In CSS, colors are specified by using a predefined color name, or with a RGB, HEX, HSL, RGBA, HSLA value.
+CSS Color Values
+In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:
+An RGB color value represents RED, GREEN, and BLUE light sources.
+rgb(red, green, blue)
+Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.
+For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
+To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+Shades of gray are often defined using equal values for all the 3 light sources:
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+An RGBA color value is specified with:
+rgba(red, green, blue, alpha)
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+HEX Value
+A hexadecimal color is specified with: #RRGGBB. 
+3 Digit HEX Value
+Sometimes you will see a 3-digit hex code in the CSS source.
+The 3-digit hex code is a shorthand for some 6-digit hex codes.
+The 3-digit hex code has the following form:
+#rgb
+Where r, g, and b represent the red, green, and blue components with values between 0 and f.
+The 3-digit hex code can only be used when both the values (RR, GG, and BB) are the same for each component. So, if we have #ff00cc, it can be written like this: #f0c.
+HSL Value
+HSL stands for hue, saturation, and lightness.
+Hue is a degree on the color wheel (from 0 to 360):
+0 (or 360) is red
+120 is green
+240 is blue
+Saturation is a percentage value: 0% means a shade of gray, and 100% is the full color.
+Lightness is also a percentage; 0% is black, 50% is neither light or dark, 100% is white.
+HSLA Value
+HSLA color values are an extension of HSL color values with an alpha channel - which specifies the opacity for a color.
+An HSLA color value is specified with:
+hsla(hue, saturation, lightness, alpha)
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+
+All CSS Background Properties
+Property	Description
+background	Sets all the background properties in one declaration
+background-attachment	Sets whether a background image is fixed or scrolls with the rest of the page
+background-clip	Specifies the painting area of the background
+background-color	Sets the background color of an element
+background-image	Sets the background image for an element
+background-origin	Specifies where the background image(s) is/are positioned
+background-position	Sets the starting position of a background image
+background-repeat	Sets how a background image will be repeated
+background-size	Specifies the size of the background image(s)
+CSS Border Style
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+All CSS Border Properties
+Property	Description
+border	Sets all the border properties in one declaration
+border-bottom	Sets all the bottom border properties in one declaration
+border-bottom-color	Sets the color of the bottom border
+border-bottom-style	Sets the style of the bottom border
+border-bottom-width	Sets the width of the bottom border
+border-color	Sets the color of the four borders
+border-left	Sets all the left border properties in one declaration
+border-left-color	Sets the color of the left border
+border-left-style	Sets the style of the left border
+border-left-width	Sets the width of the left border
+border-radius	Sets all the four border-*-radius properties for rounded corners
+border-right	Sets all the right border properties in one declaration
+border-right-color	Sets the color of the right border
+border-right-style	Sets the style of the right border
+border-right-width	Sets the width of the right border
+border-style	Sets the style of the four borders
+border-top	Sets all the top border properties in one declaration
+border-top-color	Sets the color of the top border
+border-top-style	Sets the style of the top border
+border-top-width	Sets the width of the top border
+border-width	Sets the width of the four borders*/

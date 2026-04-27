@@ -125,8 +125,53 @@ Logical -
 dry run, object run - Algorithm logic
 searching and sorting - 1 learning
 
-Doubt section - 
-headache
+Date - 17-04-26
+WOrk -
+HTML Article page
+CSS Learning and code run
+Html Notes
+Logical -
+Code dry run-unnderstand it
+then type code for other sorting algorithms
+
+menu-
+
+Date - 19-04-26
+HTML Article page
+CSS - processing, responsiveness
+Logical -
+doubt - logical Q.
+logical code for sortig algorithm
+
+Date - 20-04-26
+HTML Article page
+CSS - processing, responsiveness
+Logical -
+logical code for sortig algorithm
+
+Date - 22-04-26
+HTML page upgrade - smooth scrolling, media queries
+CSS - complete 
+Html notes
+Logical -
+logical code for sortig algorithm
+
+Add on-
+Camel casing
+Debug way
+Index name - naming convension
+
+Date - 23-04-26
+weekend cover-up
+1. HTML Notes
+2. CSS Main notes only - Photo clicked notes
+3. CSS implementation
+4. JAvascript Basics -
+Javascript-
+Introduction
+history
+Data types in js
+Category of data type in js
 
 
 

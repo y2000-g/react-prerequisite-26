@@ -1,0 +1,12 @@
+Article page- Responsive Navigation menu
+----------------------------
+1. Show Navigation in verticle when open in mobile phone
+2. Make Navigation menu as a elivated dialogue box 
+3. Hide the Navigation by default when opened in mobile view
+4. Add the Navigation icon to the right top when open in mobile 
+5. Add click listeners to navigation menu icon such that it will work in toggle for Open and 
+close the Navigation menu.
+6. set closing of menu when a menu item is clicked and when clicked outside the navigation menu
+
+
+
