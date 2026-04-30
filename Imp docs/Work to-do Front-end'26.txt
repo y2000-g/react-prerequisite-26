@@ -200,6 +200,7 @@ sorting
 Dobut session->
 empty and null ?
 
+CDN - content delivery network
 
 
 

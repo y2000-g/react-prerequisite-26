@@ -6,10 +6,11 @@
     <title>Article Page</title>
     <link rel="icon" type="image/x-icon" href="../images/bulb.png">
     <link rel="stylesheet" href="article.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <!-- <link rel="stylesheet" href="basic.css"> -->
     <style>
         header div {
-            padding: 15px 0;   /* increases height */
+            padding: 7px 0;   /* increases height */
         }
         dialog {
             /* position: fixed;  */
@@ -34,6 +35,9 @@
         dialog::backdrop {
             backdrop-filter: blur(0.2px); 
             background: rgba(0, 0, 0, 0.6);
+        }
+        * {
+             font-family: 'Montserrat', sans-serif;
         }
     </style>
     <script>
@@ -99,7 +103,7 @@
             </div>
         </div>    
         <br>
-        <div>
+        <!-- <div> -->
             <dialog id="mydailog" onclick="this.close()">
                 <div class="left1">
                     <a href="article.html">Home</a>
@@ -114,11 +118,11 @@
                 </div>
                 <!-- <button onclick="closeDialog()">Close</button> -->
             </dialog>
-        </div>
+        <!-- </div> -->
         <!-- <dialog id="mydailog" onclick="this.close()"></dialog> -->
        
     </header>
-    <br>
+    
     <main class="container">
         <section class="section">
                 <p class="center-text"><b>“The Beginning of Code: Lessons, Mistakes 
