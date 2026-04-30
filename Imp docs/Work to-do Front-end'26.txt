@@ -173,5 +173,33 @@ history
 Data types in js
 Category of data type in js
 
+Date - 24-04-26
+HTML and Css complete notes 
+Article page implementation 
+Javascript-
+Introduction
+history
+Data types in js
+Category of data type in j
+
+Date - 28-04-26
+Css notes - photo
+article notes
+js basic
+
+Date - 29-04-26
+Css Notes - photo
+Article page responsive
+Js - History, Data types
+Primitive and non primitive - Number, string and boolean 
+var-let-const
+Logical and project -
+sorting 
+50 small projects
+
+Dobut session->
+empty and null ?
+
+
 
 

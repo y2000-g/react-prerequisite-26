@@ -12,20 +12,22 @@
             padding: 15px 0;   /* increases height */
         }
         dialog {
-            position: fixed;
-            top: 120px;     
-            right: 10px;   
-            margin: 0; 
+            /* position: fixed;  */
+            margin-bottom: 120%;
+            margin-top: 25%;
+            /* top: 120px; */
+            /* right: 10px; */
+            /* margin: 0; */
             width: 80%;
-            max-width: 300px;
+            /* max-width: 300px; */
             border-radius: 12px;
             padding: 20px;
-            margin-left: 40px;
+            /* margin-left: 20px; */
             border: none;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
         }
         dialog div {
-            display: flex;
+            /* display: flex; */
             flex-direction: column;
             gap: 10px;
         }
@@ -93,22 +95,26 @@
                 </div>
             </div>
             <div class="burger-img" >
-                <img src="../images/icons8-menu-100.png" onclick="toggleDialog()" width="80" height="80">
+                <img src="../images/icons8-menu-100.png" class="nav-icon" onclick="toggleDialog()">
             </div>
         </div>    
         <br>
-        <dialog id="mydailog" onclick="this.close()">
-             <div class="left1">
-                <a href="article.html">Home</a>
-            </div>
-            <div class="center1">
-                <a href="#Category">Category</a>
-            </div>
-            <div class="right1">
-                <a href="#form">contact Us</a>
-            </div>
-            <!-- <button onclick="closeDialog()">Close</button> -->
-        </dialog>
+        <div>
+            <dialog id="mydailog" onclick="this.close()">
+                <div class="left1">
+                    <a href="article.html">Home</a>
+                </div>
+                <hr>
+                <div class="center1">
+                    <a href="#Category">Category</a>
+                </div>
+                <hr>
+                <div class="right1">
+                    <a href="#form">Contact Us</a>
+                </div>
+                <!-- <button onclick="closeDialog()">Close</button> -->
+            </dialog>
+        </div>
         <!-- <dialog id="mydailog" onclick="this.close()"></dialog> -->
        
     </header>
@@ -117,8 +123,8 @@
         <section class="section">
                 <p class="center-text"><b>“The Beginning of Code: Lessons, Mistakes 
                 <br>& A Techie’s To-Do App Journey”</b></p>
-                <P class="center-text" >__Yashita Gole__</P><br>
-                <img src="../images/My First React To-Do App.png" height="30%" width="30%" style="margin-left: 0%;"><br><br>
+                <P class="center-text1" >__Yashita Gole__</P><br>
+                <img src="../images/My First React To-Do App.png" id="to-do-img"><br><br>
             <article class="article">
                     <p><blockquote>“Every developer remembers their first project — I built my first React To-Do app 
                         to understand single-page application (SPA) concepts that turned into a crash course 
@@ -130,7 +136,7 @@
                         I’ll share the key strategies that helped me build efficient, responsive applications.”
                     </i><br><br>
 
-                    First To-Do App in React: <strong>Beginner’s Guide to Building a Single-Page Application</strong><br>
+                    <p class="heading2">First To-Do App in React: <strong>Beginner’s Guide to Building a Single-Page Application</strong></p><br>
                     <p>First, I want to thank my mentor, Mr. Aditya Gupta Sir, for guiding me through this project. His one of the best advice:
                     <i> “Think only once, plan clearly, and follow your plan step by step without wasting energy in rethinking.”
                     </i></p>
@@ -140,7 +146,7 @@
                     functions, and how to bring an idea to life step by step.
                     </p>
 
-                    <b>What This React To-Do App Does</b>
+                    <b>What This React To-Do App Does :</b>
                 <div class="feature" >
                     <p style="margin-left: 60px;">I developed a To-Do app with the following features:</p>
                     <ul>
@@ -156,16 +162,19 @@
                 <p> It’s a single-page app, meaning all interactions happen without refreshing the page, 
                     powered by React’s state management.
                 </p><br>
-
-                    <img src="../images/todo 1.png" style="margin-left: 20px; width: 50%;"><br><br>
-
+                    <div class="img-container">
+                    <img src="../images/todo 1.png" class="to-do-img1"><br><br>
+                    </div>
+                    <br><br>
+                    <p id="heading3">
                     <b>To-do App working</b> - My Development Journey<br><br>
+                    </p>
                     <p>
                     <b>1.</b> Planning Is Everything - As a beginner, I learned that clear planning saves you from endless confusion. My mentor 
                     helped me break down the app into small, actionable steps. Without that clarity, I would have wasted time jumping 
                     between problems.</p>
 
-                    <p class="center-text">
+                    <p class="add-todo">
                     Add to-do (when list is empty)
                     <ul>
                         <li>Add to-do (when list already has items)</li>
@@ -180,18 +189,19 @@
                     </ul>
                     <br>
                     This roadmap made the development process far smoother. (This is just a short roadmap for understanding. I made a proper 
-                    Excel sheet which includes Epic, Features, Fields, Options, Tasks)<br><br>
-                <p class="center-text"><b>2.</b> Dialog Boxes Were Tricky Adding and syncing dialog boxes (for Add, Edit, and Delete)   was one of my most 
+                    Excel sheet which includes Epic, Features, Fields, Options, Tasks)</p>
+                <p><b>2.</b> Dialog Boxes Were Tricky Adding and syncing dialog boxes (for Add, Edit, and Delete)   was one of my most 
                     challenging tasks. As a fresher, integrating Bootstrap or JavaScript dialogs and making them work with React state 
                     took me several hit-and-trial attempts.
                 </p>    
-                    <img src="../images/todo 3.webp"  class="center-text"><br>
-                    
-                <p class="center-text"><b>3.</b> Keeping the List and Filters in SyncA slightly tricky logic for me was syncing the list with filters and maintaining the correct to-do count at all times. 
+                    <div class="img-container">
+                    <img src="../images/todo 3.edit.jpg"><br>
+                    </div>
+                <p><b>3.</b> Keeping the List and Filters in SyncA slightly tricky logic for me was syncing the list with filters and maintaining the correct to-do count at all times. 
                     It taught me how to manage React state updates efficiently.
                 </p>    
 
-                <p class="center-text"><b>4.</b> Design, UI Placement & Dialog Boxes
+                <p><b>4.</b> Design, UI Placement & Dialog Boxes
                     Adding proper margins, spacing, and aligning everything to look neat is an underrated skill! It took me a lot of tweaking 
                     to make the app visually pleasant. Integrating Bootstrap modals for Add, Edit, and Delete dialogs was a little challenging. 
                     It required several hit-and-trial attempts to sync them with React state effectively.
@@ -208,31 +218,31 @@
                     <li> Revise and repeat: Basics matter more than you think.</li>
                     <li> Trust the process — Practice daily, revise basics, and keep improving.</li>
                 </ul>
-            
-                <p class="center-text"><em>Final Words -This project not only taught me React but also discipline, planning, and problem-solving. For every 
-                    mistake I made, I found a new way to grow.</em><br><br>
-
+                <p class="para1"><blockquote>Final Words -This project not only taught me React but also discipline, planning, and problem-solving. For every 
+                    mistake I made, I found a new way to grow.</blockquote>
                     If you’re starting your coding journey: practice daily, learn continuously, and never stop asking questions. Stay motivated,
                     stay consistent, and trust that your efforts will compound over time.
                 </p> 
-                <h2 id="Category">There are some more Category to explore :</h2>
-                <select class="center-text">
-                    <option>Education</option>
-                    <option>Geography</option>
-                    <option>History</option>
-                    <option>Science</option>
-                    <option>Space</option>
-                </select>
-                    <p class="center-text" ><b>40 Life Lessons I Know at 40 (That I Wish I Knew at 20)</b></p>
-                    <a href="https://medium.com/@markmanson/40-life-lessons-i-know-at-40-that-i-wish-i-knew-at-20-6fa878ce49c1">To Read click here</a>
-                    <p class="center-text">How to Become a Better Learner</p>
-                    <a href="https://medium.com/@markmanson/how-to-become-a-better-learner-c1def7f9d5da">To Read click here</a>
-                    <p class="center-text">One of the best platform to read Articles</p>
-                    <a href="https://medium.com/">Check-out here</a><br><br>
+                <div>
+                    <h3 id="Category">There are some more Category to explore :</h3>
+                    <select class="select-category">
+                        <option>Education</option>
+                        <option>Geography</option>
+                        <option>History</option>
+                        <option>Science</option>
+                        <option>Space</option>
+                    </select>
+                        <p class="select-category" ><b>40 Life Lessons I Know at 40 (That I Wish I Knew at 20)</b></p>
+                        <a href="https://medium.com/@markmanson/40-life-lessons-i-know-at-40-that-i-wish-i-knew-at-20-6fa878ce49c1">To Read click here</a>
+                        <p class="select-category">How to Become a Better Learner</p>
+                        <a href="https://medium.com/@markmanson/how-to-become-a-better-learner-c1def7f9d5da">To Read click here</a>
+                        <p class="select-category">One of the best platform to read Articles</p>
+                        <a href="https://medium.com/">Check-out here</a><br><br>
+                </div>    
             </article>
         </section>
     </main>
-    <footer class="center-text">
+    <footer class="center-text2">
         <form id="form">
             <fieldset>
                 <legend>For any Enquiry fill the form</legend><br>
@@ -244,7 +254,7 @@
                 <input type="email" id="mail" placeholder="Your email id"><br><br>
             </fieldset>
         </form><br><br>
-            <p class="center-text">If you would like to learn more or seek guidance from my mentor, you can connect on LinkedIn. Click on the link below -
+            <p class="center-text2">If you would like to learn more or seek guidance from my mentor, you can connect on LinkedIn. Click on the link below -
             <a href="https://www.linkedin.com/in/adityagupta78"> Mr. Aditya Gupta </a>
             <br>
             Follow me for more such articles - 
