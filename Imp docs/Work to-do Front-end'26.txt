@@ -1,6 +1,6 @@
 #Work flow -
 HTML,CSS,JAVAScript- advance concept of AI 
-may-end -> complete knowledge
+react - may-end -> complete knowledge
 Project -> 1-2 
 Logical thinking -> every week friday offline class 
 every week - 10 questions
@@ -198,9 +198,103 @@ sorting
 50 small projects
 
 Dobut session->
-empty and null ?
+
+
+Date - 30-04-26
+Deployment + linkedin post
+Js- notes + more topics
+Logical & project- 
+small projects
+*Sorting
+
+Programming need - it's a translating language between computer and us
+Complie and interpreter lang - java c , c++
+Interpreter language - Python and javascript
+
 
 CDN - content delivery network
+Alphabetically 
+Lackcially
+Syntactically.
+Semantically
+
+Source code to machine code
+
+Primitive  data type - 
+Number 
+string 
+Boolean 
+bigint
+Symbol 
+Undefine
+Null
+
+Notes ---->
+Javascript -
+Creation (1995)
+JavaScript was created by Brendan Eich
+Developed at Netscape
+Built in just 10 days 
+First name: Mocha → then LiveScript → finally JavaScript
+Used mainly for:
+
+Form validation
+Simple animations
+
+Turning Point (2009)
+Introduction of Node.js
+
+👉 Big change:
+
+JavaScript could now run outside the browser
+Used for backend development
+⚡ 5. Modern JavaScript (2015 – Present)
+Release of ES6 (ECMAScript 2015) — major upgrade 
+Added features:
+let and const
+Arrow functions =>
+Classes
+Promises
+Modules
+
+👉 JavaScript became:
+
+Faster
+Cleaner
+More powerful
+
+One of the most popular programming languages
+Used for:
+Frontend (web UI)
+Backend (Node.js)
+Mobile apps
+Games
+AI & more
+🧠 Simple Timeline (Quick Revision)
+1995 → Created by Brendan Eich
+1997 → ECMAScript standard
+2009 → Node.js launched
+2015 → ES6 (modern JS begins)
+
+Variables are labels for data values.
+
+Variables are containers for storing data.
+Variables are identified with unique names called identifiers.
+
+Block scoped ✅
+Can be updated
+❌ Cannot be redeclared in same scope
+Hoisted but not initialized (Temporal Dead Zone)
+
+Block scoped ✅
+❌ Cannot be updated
+❌ Cannot be redeclared
+Must be initialized at declaration
+
+
+
+
+
 
 
 
