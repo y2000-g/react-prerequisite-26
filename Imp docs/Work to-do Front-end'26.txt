@@ -197,8 +197,7 @@ Logical and project -
 sorting 
 50 small projects
 
-Dobut session->
-
+***Dobut session***->
 
 Date - 30-04-26
 Deployment + linkedin post
@@ -207,10 +206,16 @@ Logical & project-
 small projects
 *Sorting
 
+Date - 1-05-26
+Deployment + linkedin post
+*Js- notes + data type whole topic
+Logical & project- 
+small projects - personal portfolio - research - content list
+Logical question solve
+
 Programming need - it's a translating language between computer and us
 Complie and interpreter lang - java c , c++
 Interpreter language - Python and javascript
-
 
 CDN - content delivery network
 Alphabetically 
@@ -292,9 +297,17 @@ Block scoped ✅
 Must be initialized at declaration
 
 
+The part everyone ignores in the beginning... is the same part that stops everyone in the middle—if you're starting your coding journey, this is for YOU.
 
 
 
+While learning the prerequisites of development, these small projects taught me the real foundations: how to think, how to debug, and how to stay patient when nothing works.
 
+
+
+Now, I’ve decided to start sharing those learnings step by step—especially for freshers and juniors who need to know this 
+
+
+Now, I’ve decided to start sharing those learnings step by step—especially for freshers and juniors who need to know this - correct this line and also
 
 
