@@ -311,12 +311,12 @@ for(let index = 1; index <= 6; index++)
         
         if(indexCopy > 1)
         {
-            patternStr = patternStr + indexCopy
+            patternStr = patternStr + " " + indexCopy
             indexCopy--
         }
         else
         {
-            patternStr = patternStr + incPattern
+            patternStr = patternStr + " " + incPattern
             incPattern++ 
                
         }
@@ -560,7 +560,7 @@ for(let indexOuter = 1; indexOuter <= 6; indexOuter++)
         }
     for(let indexInner = 1; indexInner <= indexOuter; indexInner++)
         {
-            strStar = strStar + "*" 
+            strStar = strStar + " " + "*" 
         }  
     console.log(strStar)
 }
